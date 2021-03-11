@@ -12,6 +12,8 @@ function setLang(lang) {
             console.log("Unvalid lang code!");
     }
 
+    $( "#current-lang" ).html(txt_lang["l-"+lang]);
+
     $( ".multilang" ).each(function() {
         new_txt = txt_lang[this.getAttribute("multilang-id")];
         if (new_txt !== undefined) {
