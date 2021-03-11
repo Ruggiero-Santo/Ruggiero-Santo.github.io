@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -22,19 +23,21 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Ruggiero Santo</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/profile.jpg" alt="" /></span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" />
+            </span>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#softskills">Soft Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobby">Hobby</a></li>
             </ul>
         </div>
     </nav>
@@ -44,20 +47,327 @@
         <section class="resume-section" id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
-                    Ruggiero 
+                    Ruggiero
                     <span class="text-primary">Santo</span>
                 </h1>
                 <div class="subheading mb-5">
-                    Barletta, Puglia, Italy ·
+                    <span class="multilang" multilang-id="location"></span> ·
                     <a href="mailto:ruggiero.santo@gmail.com">ruggiero.santo@gmail.com</a>
                 </div>
-                <!-- <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to
-                    further the overall value proposition.</p> -->
+                <p class="lead mb-5"><span class="multilang" multilang-id="about-me"></span></p>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/ruggiero-santo-79b072207/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/ruggiero-santo-79b072207/"><i
+                            class="fab fa-linkedin-in"></i></a>
                     <a class="social-icon" href="https://github.com/Ruggiero-Santo"><i class="fab fa-github"></i></a>
-                    <!-- <a class="social-icon" href="https://www.hackerrank.com/ruggiero_santo"><i class="fab fa-hackerrank"></i></a> -->
+                    <a class="social-icon" href="https://www.hackerrank.com/ruggiero_santo"><i
+                            class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education -->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"> <span class="multilang" multilang-id="ED-UniPi-name"></span></h3>
+                        <div class="subheading mb-3"> <span class="multilang" multilang-id="ED-UniPi-title"></span></div>
+                        <div> <span class="multilang" multilang-id="ED-UniPi-specialization"></span> <i class="fas fa-chevron-down"id="controllerMSc" data-toggle="collapse" data-target="#collapseMSc"></i></div>
+                        <!-- Exams performed -->
+                        <div id="collapseMSc" class="collapse" data-controller="#controllerMSc">
+                            <div class="card-body">
+                                <span class="multilang" multilang-id="ED-UniPi"></span>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Code</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">CFU</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>261AA</td>
+                                            <td>peer to peer systems and blockchains (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37721">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>289AA</td>
+                                            <td>information retrieval (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38292">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>290AA</td>
+                                            <td>advanced software engineering (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=43424">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>303AA</td>
+                                            <td>ict risk assessment (<a href="https://esami.unipi.it/esami2/pdfProgCorsoStu.php?language=en&c=42265">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>305AA</td>
+                                            <td>parallel and distributed systems: paradigms and models (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33651">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>309AA</td>
+                                            <td>data mining (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33591">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>387AA</td>
+                                            <td>introduction to robotics (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=34162">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>531AA</td>
+                                            <td>algorithm engineering (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37159">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>643AA</td>
+                                            <td>artificial intelligence fundamentals (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33188">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>646AA</td>
+                                            <td>computational mathematics for learning and data analysis (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33053">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>649AA</td>
+                                            <td>human language technologies (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=39781">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td>651AA</td>
+                                            <td>intelligent systems for pattern recognition (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37599">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">13</th>
+                                            <td>654AA</td>
+                                            <td>machine learning (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=36545">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">14</th>
+                                            <td>655AA</td>
+                                            <td>mobile and cyber-physical systems (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38127 ">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">15</th>
+                                            <td>658AA</td>
+                                            <td>smart applications (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=42283">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <span class="multilang" multilang-id="ED-UniPi-extra"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Nov 2017 - Mar 2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><span class="multilang" multilang-id="ED-UniBa-name"></span></h3>
+                        <div class="subheading mb-3"><span class="multilang" multilang-id="ED-UniBa-title"></span></div>
+                        <div><span class="multilang" multilang-id="ED-UniBa-specialization"></span> <i class="fas fa-chevron-down"
+                                id="controllerBSc" data-toggle="collapse" data-target="#collapseBSc"></i></div>
+                        <!-- Exams performed -->
+                        <div id="collapseBSc" class="collapse" data-controller="#controllerBSc">
+                            <div class="card-body">
+                                <span class="multilang" multilang-id="ED-UniBa"></span>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">CFU</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Analisi e progettazione di sistemi software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisieprogettazionedisistemisoftwareMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Analisi Matematica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisimatematicaMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Architettura degli Elaboratori e Sistemi Operativi (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AdESOMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Calcolo Numerico (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/CalcolonumericoMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Economia e Gestione d’impresa (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/economiagestioneimpreMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Fisica Applicata all’Informatica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/FisicaApplicataInformaticaMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td>Gestione della Conoscenza d’ Impresa (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/MetodiperlaGestionedellaConoscenzaITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Integrazione e Test di Sistemi Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ITSSITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td>Laboratorio di Informatica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/laboratorioinformaticaMZITPSn.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>Lingua inglese (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaingleseMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>Linguaggi di Programmazione (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaggidiprogrammazioneITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td>Matematica Discreta (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/MatematicadiscretaMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td>Modelli per la Qualità del Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ModelliITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">13</th>
+                                            <td>Progettazione dell’Interazione con l’Utente+Lab. (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/piuITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">14</th>
+                                            <td>Progettazione di Basi di Dati (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgettazioneBasiDatiMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">15</th>
+                                            <td>Programmazione (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgrammazioneMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">16</th>
+                                            <td>Programmazione II (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/Programmazione2MZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">17</th>
+                                            <td>Reti di calcolatori (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/RetiCalcolatoriMZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">18</th>
+                                            <td>Sistemi multimediali (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SistemiCooperativiITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">19</th>
+                                            <td>Statistica per l’Ingegneria del Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/StatisticaingswLZITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">20</th>
+                                            <td>Sviluppo di mobile software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SMSITPS.pdf">syllabus</a>)
+                                            </td>
+                                            <td>6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Sep 2014 - Oct 2017</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Sen. O. Iannuzzi, Andria(BT)</h3>
+                        <div class="subheading mb-3">Technology High school</div>
+                        <div>
+                            <span class="multilang" multilang-id="ED-sup-title"></span> 
+                            <i class="fas fa-chevron-down" id="controllerH" data-toggle="collapse" data-target="#collapseH"></i></div>
+                        <!-- Exams performed -->
+                        <div id="collapseH" class="collapse" data-controller="#controllerH">
+                            <div class="card-body">
+                                <span class="multilang" multilang-id="ED-sup"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2015</span></div>
                 </div>
             </div>
         </section>
@@ -70,8 +380,16 @@
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Software Engeneering - Machine Learning Scientist</h3>
                         <div class="subheading mb-3">CNR - Pisa</div>
-                        <p>Period in which the thesis work was done. Construction of a software system on the application of machine-learning algorithms to support for COVID-19 severity prediction from lung ultrasound</p>
-                        <!-- <div>Costruzione di un sistema software sull'applicazione di algoritmi di apprendimento automatico a supporto della previsione di gravità COVID-19 dall'ecografia polmonare</div> -->
+                        <div>
+                            <span class="multilang" multilang-id="EX-Pi"></span> 
+                            <i class="fas fa-chevron-down" id="controllerThesisMSc" data-toggle="collapse" data-target="#collapseThesisMSc"></i>
+                        </div>
+                        <!-- Thesis Info -->
+                        <div id="collapseThesisMSc" class="collapse" data-controller="#controllerThesisMSc">
+                            <div class="card-body">
+                                <span class="multilang" multilang-id="EX-Pi-thesis"></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Apr 2020 - Feb 2021</span></div>
                 </div>
@@ -79,108 +397,113 @@
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Sotware Engeneering</h3>
                         <div class="subheading mb-3">Serlab - Software Engineering Research LABoratory</div>
-                        <p>Period in which part of the thesis work was done. Construction of a software system on the application of machine-learning algorithms to support pathological diagnosis of leukocyte cells.</p>
-                        <!-- <p>Costruzione sistema software sull'applicazione di algoritmi di machine learing per il supporto alla diagnosi patologica di cellule leucocitarie</p> -->
+                        <div><span class="multilang" multilang-id="EX-Ba"></span> <i class="fas fa-chevron-down"
+                                id="controllerThesisBSc" data-toggle="collapse" data-target="#collapseThesisBSc"></i>
+                        </div>
+                        <!-- Thesis Info -->
+                        <div id="collapseThesisBSc" class="collapse" data-controller="#controllerThesisBSc">
+                            <div class="card-body">
+                                <span class="multilang" multilang-id="EX-Ba-thesis"></span>
+                            </div>
+                        </div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">May 2017 - Jul 2017</span></div>
                 </div>
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">University of Pisa</h3>
-                        <div class="subheading mb-3">Master of Science</div>
-                        <div>Computer Science - Artificial Intelligence</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Nov 2017 - Mar 2021</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">University of Bari</h3>
-                        <div class="subheading mb-3">Bachelor of Science</div>
-                        <div>Computer Science and Software Production Technologies</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Sep 2014 - Oct 2017</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Sen. O. Iannuzzi, Andria(BT)</h3>
-                        <div class="subheading mb-3">Technology High school</div>
-                        <div>Specialist Technician - Computer Science and Telecommunications</div>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2015</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
         <!-- Skills-->
+        <!-- TODO: Da inserire quando sono state acquisite le varie conoscenze -->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Skills</h2>
                 <div class="subheading mb-3">Programming Languages</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-cuttlefish"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-python" data-toggle="tooltip" data-placement="bottom" title="Python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java" data-toggle="tooltip" data-placement="bottom" title="Java"></i></li>
+                    <li class="list-inline-item"><img src="assets/svg/C++.svg" alt="C++ logo" width="55" class=svg-inline--fa /></li>
+                    <li class="list-inline-item"><img src="assets/svg/C.svg" alt="C logo" width="55" class=svg-inline--fa /></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-php"></i></li>
                     <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                     <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-php"></i></li>
-                    <!-- <li class="list-inline-item"><i class="fab fa-sql"></i></li> -->
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><img src="assets/svg/typescript.svg" alt="TypeScript logo" width="44" class="svg-inline--fa" /></li>
+                    <li class="list-inline-item"><img src="assets/svg/solidity.svg" alt="solidity logo" width="44" class="svg-inline--fa" data-toggle="tooltip" data-placement="bottom" title="Solidity"/></li>
                 </ul>
-                <!-- <div class="subheading mb-3">IDE</div>
+                <div class="subheading mb-3">Frameworks/Library</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-VSCode"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-Atom"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-Eclipse"></i></li>
-                </ul> -->
-                <!-- <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Mobile-First, Responsive Design
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Browser Testing & Debugging
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Functional Teams
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Agile Development & Scrum
-                    </li>
-                </ul> -->
+                    <li class="list-inline-item"><img src="assets/svg/pyTorch.svg" alt="pyTorch logo" width="60" data-toggle="tooltip" data-placement="bottom" title="PyTorch"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/flask.svg" alt="Flask logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Flask"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/opencv.svg" alt="OpenCV logo" width="50" data-toggle="tooltip" data-placement="bottom" title="OpenCV"/></li>
+                </ul>
+                <div class="subheading mb-3">Database</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><img src="assets/svg/mysql.svg" alt="MySQL logo" width="72" data-toggle="tooltip" data-placement="bottom" title="MySQL"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/blockchain.svg" alt="Blockchains" width="80" data-toggle="tooltip" data-placement="bottom" title="Blockchains"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/mongo.svg" alt="MongoDB logo" width="30" data-toggle="tooltip" data-placement="bottom" title="MongoDB"/></li>
+                </ul>
+                <div class="subheading mb-3">IDE</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><img src="assets/svg/vscode.svg" alt="VScode logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Visual Studio Code"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/eclipse.svg" alt="Eclipse logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Eclipse"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/atom.svg" alt="Atom logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Atom"/></li>
+                </ul>
+                <div class="subheading mb-3">OS</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-windows"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                </ul>
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Soft Skills-->
+        <!-- Soft Skills -->
         <section class="resume-section" id="softskills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Soft Skills</h2>
-                <!-- <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-                    skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking,
-                    free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-                    shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest
-                    technology advancements in the front-end web development world.</p> -->
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-autonomy">Autonomy</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-selfConf">Self-confidence</span> 8/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-flex">Flexibility/Adaptability</span> 10/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-resist">Resistance to stress</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-ability">Ability to plan and organise</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-managing">Managing information</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-accuracy">Accuracy/Attention to detail</span> 8/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-continuous">Continuous learning</span> 10/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-objective">Achieving objectives</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-entrepre">Entrepreneurship/Spirit of initiative</span> 8/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-communi">Communication skills</span> 6/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-problem">Problem solving</span> 9/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-team">Team work</span> 10/10 </li>
+                    <li class="list-group-item"><span class="multilang" multilang-id="SF-leader">Leadership</span> 9/10 </li>
+                </ul>
+                <br>
+                <span class="multilang" multilang-id="SF-explanation"></span>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Hobby -->
+        <section class="resume-section" id="hobby">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Hobby</h2>
+                <span class="multilang" multilang-id="H-explanation"></span>
             </div>
         </section>
     </div>
+    
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
+    
+    <script src="./assets/lang/en.js"></script>
+    <script src="./assets/lang/it.js"></script>
+
+    <script src="./js/custom.js"></script>
+    <script type = "text/javascript">setLang("en");</script>
 </body>
 
 </html>

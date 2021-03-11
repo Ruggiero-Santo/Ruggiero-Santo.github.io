@@ -1,0 +1,11 @@
+.flip_arrow {
+    transform: rotate(180deg);
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.35rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
