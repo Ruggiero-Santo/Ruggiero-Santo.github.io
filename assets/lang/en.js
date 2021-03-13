@@ -28,7 +28,7 @@ en_lang = {
     "SF-accuracy": "Accuracy/Attention to detail",
     "SF-continuous": "Continuous learning",
     "SF-objective": "Achieving objectives",
-    "SF-entrepre": "Entrepreneurship/Spirit of initiative",
+    "SF-spirit": "Resourcefulness/Spirit of initiative",
     "SF-communi": "Communication skills",
     "SF-problem": "Problem solving",
     "SF-team": "Team work",

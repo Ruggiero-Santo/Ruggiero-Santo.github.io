@@ -30,7 +30,7 @@ it_lang = {
     "SF-accuracy": "Precisione/Attenzione ai dettagli",
     "SF-continuous": "Apprendere in maniera continuativa",
     "SF-objective": "Conseguire obiettivi",
-    "SF-entrepre": "Intraprendenza/Spirito d'iniziativa",
+    "SF-spirit": "Intraprendenza/Spirito d'iniziativa",
     "SF-communi": "Capacità comunicativa",
     "SF-problem": "Problem Solving",
     "SF-team": "Team work",
