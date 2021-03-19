@@ -75,7 +75,7 @@
                         <div class="subheading mb-3"> <span class="multilang" multilang-id="ED-UniPi-title"></span></div>
                         <div> <span class="multilang" multilang-id="ED-UniPi-specialization"></span> <i class="fas fa-chevron-down"id="controllerMSc" data-toggle="collapse" data-target="#collapseMSc"></i></div>
                         <!-- Exams performed -->
-                        <div id="collapseMSc" class="collapse" data-controller="#controllerMSc">
+                        <div id="collapseMSc" class="collapse show" data-controller="#controllerMSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-UniPi"></span>
                                 <table class="table">
@@ -208,7 +208,7 @@
                         <div><span class="multilang" multilang-id="ED-UniBa-specialization"></span> <i class="fas fa-chevron-down"
                                 id="controllerBSc" data-toggle="collapse" data-target="#collapseBSc"></i></div>
                         <!-- Exams performed -->
-                        <div id="collapseBSc" class="collapse" data-controller="#controllerBSc">
+                        <div id="collapseBSc" class="collapse show" data-controller="#controllerBSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-UniBa"></span>
                                 <table class="table">
@@ -361,7 +361,7 @@
                             <span class="multilang" multilang-id="ED-sup-title"></span> 
                             <i class="fas fa-chevron-down" id="controllerH" data-toggle="collapse" data-target="#collapseH"></i></div>
                         <!-- Exams performed -->
-                        <div id="collapseH" class="collapse" data-controller="#controllerH">
+                        <div id="collapseH" class="collapse show" data-controller="#controllerH">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-sup"></span>
                             </div>
@@ -385,7 +385,7 @@
                             <i class="fas fa-chevron-down" id="controllerThesisMSc" data-toggle="collapse" data-target="#collapseThesisMSc"></i>
                         </div>
                         <!-- Thesis Info -->
-                        <div id="collapseThesisMSc" class="collapse" data-controller="#controllerThesisMSc">
+                        <div id="collapseThesisMSc" class="collapse show" data-controller="#controllerThesisMSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="EX-Pi-thesis"></span>
                             </div>
@@ -401,7 +401,7 @@
                                 id="controllerThesisBSc" data-toggle="collapse" data-target="#collapseThesisBSc"></i>
                         </div>
                         <!-- Thesis Info -->
-                        <div id="collapseThesisBSc" class="collapse" data-controller="#controllerThesisBSc">
+                        <div id="collapseThesisBSc" class="collapse show" data-controller="#controllerThesisBSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="EX-Ba-thesis"></span>
                             </div>
@@ -419,34 +419,35 @@
                 <h2 class="mb-5">Skills</h2>
                 <div class="subheading mb-3">Programming Languages</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-python" data-toggle="tooltip" data-placement="bottom" title="Python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-java" data-toggle="tooltip" data-placement="bottom" title="Java"></i></li>
-                    <li class="list-inline-item"><img src="assets/svg/C++.svg" alt="C++ logo" width="55" class=svg-inline--fa /></li>
-                    <li class="list-inline-item"><img src="assets/svg/C.svg" alt="C logo" width="55" class=svg-inline--fa /></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-php"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><img src="assets/svg/typescript.svg" alt="TypeScript logo" width="44" class="svg-inline--fa" /></li>
-                    <li class="list-inline-item"><img src="assets/svg/solidity.svg" alt="solidity logo" width="44" class="svg-inline--fa" data-toggle="tooltip" data-placement="bottom" title="Solidity"/></li>
+                    <li class="list-inline-item"><i class="fab fa-python" data-toggle="popover" title="Python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java" data-toggle="popover" title="Java"></i></li>
+                    <li class="list-inline-item"><img src="assets/svg/C++.svg" alt="C++ logo" width="55" class=svg-inline--fa data-toggle="popover" title="C++"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/C.svg" alt="C logo" width="55" class=svg-inline--fa data-toggle="popover" title="C"/></li>
+                    <li class="list-inline-item"><a><i class="fab fa-js-square" data-toggle="popover" title="JavaScript"></i></a></li>
+                    <li class="list-inline-item"><i class="fab fa-php" data-toggle="popover" title="PHP"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-html5" data-toggle="popover" title="HTML"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt" data-toggle="popover" title="CSS"></i></li>
+                    <li class="list-inline-item"><img src="assets/svg/typescript.svg" alt="TypeScript logo" width="44" class="svg-inline--fa" data-toggle="popover" title="TypeScript"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/solidity.svg" alt="solidity logo" width="44" class="svg-inline--fa" data-toggle="popover" title="Solidity"/></li>
                 </ul>
                 <div class="subheading mb-3">Frameworks/Library</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><img src="assets/svg/pyTorch.svg" alt="pyTorch logo" width="60" data-toggle="tooltip" data-placement="bottom" title="PyTorch"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/flask.svg" alt="Flask logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Flask"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/opencv.svg" alt="OpenCV logo" width="50" data-toggle="tooltip" data-placement="bottom" title="OpenCV"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/pyTorch.svg" alt="pyTorch logo" width="60" data-toggle="popover" title="PyTorch"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/flask.svg" alt="Flask logo" width="50" data-toggle="popover" title="Flask"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/opencv.svg" alt="OpenCV logo" width="50" data-toggle="popover" title="OpenCV"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/NumPy.svg" alt="NumPy logo" width="50" data-toggle="popover" title="NumPy"/></li>
                 </ul>
                 <div class="subheading mb-3">Database</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><img src="assets/svg/mysql.svg" alt="MySQL logo" width="72" data-toggle="tooltip" data-placement="bottom" title="MySQL"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/blockchain.svg" alt="Blockchains" width="80" data-toggle="tooltip" data-placement="bottom" title="Blockchains"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/mongo.svg" alt="MongoDB logo" width="30" data-toggle="tooltip" data-placement="bottom" title="MongoDB"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/mysql.svg" alt="MySQL logo" width="72" data-toggle="popover" title="MySQL"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/blockchain.svg" alt="Blockchains" width="80" data-toggle="popover" title="Blockchains"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/mongo.svg" alt="MongoDB logo" width="30" data-toggle="popover" title="MongoDB"/></li>
                 </ul>
                 <div class="subheading mb-3">IDE</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><img src="assets/svg/vscode.svg" alt="VScode logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Visual Studio Code"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/eclipse.svg" alt="Eclipse logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Eclipse"/></li>
-                    <li class="list-inline-item"><img src="assets/svg/atom.svg" alt="Atom logo" width="50" data-toggle="tooltip" data-placement="bottom" title="Atom"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/vscode.svg" alt="VScode logo" width="50" data-toggle="popover" title="Visual Studio Code"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/eclipse.svg" alt="Eclipse logo" width="50" data-toggle="popover" title="Eclipse"/></li>
+                    <li class="list-inline-item"><img src="assets/svg/atom.svg" alt="Atom logo" width="50" data-toggle="popover" title="Atom"/></li>
                 </ul>
                 <div class="subheading mb-3">OS</div>
                 <ul class="list-inline dev-icons">
@@ -460,7 +461,8 @@
         <section class="resume-section" id="softskills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Soft Skills</h2>
-                <!-- Self-assessment which I think is a bit too self-centred. The explanation of how I acquired these skills should be sufficient. -->
+                <!-- Self-assessment which I think is a bit too self-centred. The explanation of how I acquired these skills should be sufficient.
+                 -->
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><span class="multilang" multilang-id="SF-autonomy"></span> <!-- 9/10 --> </li>
                     <!-- <li class="list-group-item"><span class="multilang" multilang-id="SF-selfConf"></span> 8/10 </li> -->
@@ -510,9 +512,7 @@
     <!-- Custom js -->
     <script src="./assets/lang/en.js"></script>
     <script src="./assets/lang/it.js"></script>
-
     <script src="./js/custom.js"></script>
-    <script type = "text/javascript">setLang("en");</script>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
+//Function that manages the language of the site.
+txt_lang = {};
 function setLang(lang) {
-    txt_lang = {};
     switch (lang) {
         case "it":
             txt_lang = it_lang;
@@ -21,10 +22,24 @@ function setLang(lang) {
         }
     });
 }
+setLang("en");
 
+//Functions that manages the collapsables of the site.
 $(".collapse").on('shown.bs.collapse', function () {
     $(this.getAttribute("data-controller")).addClass("flip_arrow");
 })
 $(".collapse").on('hidden.bs.collapse', function () {
     $(this.getAttribute("data-controller")).removeClass("flip_arrow");
 })
+
+//Function that manages the popover in Soft Skills section.
+$(document).ready(function() {
+    $('[data-toggle="popover"]').popover({
+        html: true,
+        trigger: "hover",
+        placement: "bottom",
+        content: function() {
+          return txt_lang["SK-"+this.getAttribute("data-original-title")];
+        },
+    });
+});
