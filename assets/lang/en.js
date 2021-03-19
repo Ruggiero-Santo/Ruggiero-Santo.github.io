@@ -1,5 +1,5 @@
 en_lang = {
-    "location": "BARLETTA, APULIA, ITALIA",
+    "location": "BARLETTA, APULIA, ITALY",
     "ED-UniPi-name": "University of Pisa",
     "ED-UniPi-title": "Master of Science",
     "ED-UniPi-specialization": "Computer Science - Artificial Intelligence",
@@ -52,11 +52,11 @@ en_lang = {
     "SK-Flask": "Experience: Medium</br> Used in several personal projects (Telegram bots or small services) and studied in depth during an exam in the Master's degree.",
     "SK-OpenCV": "Experience: Medium-Low</br> Used during several exams and during two thesis works (used in Python).",
     "SK-MySQL": "Experience: Medium-High</br> Used extensively in many projects (<a href='http://progressionereparto.altervista.org/'>project</a>). Extensively used during several examinations (three years).",
-    "SK-Blockchains": "Experience: Medium</br> Passion and personal interest and studied during an exam in the Master's programme. ",
+    "SK-Blockchains": "Experience: Medium-Low</br> Passion and personal interest and studied during an exam in the Master's programme. ",
     "SK-MongoDB": "Experience: Low</br> Used a bit for a university <a href='https://github.com/Ruggiero-Santo/Mobile'>Mobile</a> project and a personal project. ",
-    "SK-Visual Studi Code": "Experience: High</br> Switched to VSCode for some small stuff and integration with the workgroup. </br> I also did some small extensions for personal use. ",
+    "SK-Visual Studio Code": "Experience: High</br> Switched to VSCode for some small stuff and integration with the workgroup. </br> I also did some small extensions for personal use. ",
     "SK-Eclipse": "Experience: High</br> Used a lot while programming in Java.",
-    "SK-Atom": "Experience: Medium</br> U Used a lot with the use of all the other languages learned along the way.",
+    "SK-Atom": "Experience: Medium</br> Used a lot with the use of all the other languages learned along the way.",
 
     "l-en": '<span class="flag-icon flag-icon-gb"></span> English',
     "l-it": '<span class="flag-icon flag-icon-it"></span> Italian',

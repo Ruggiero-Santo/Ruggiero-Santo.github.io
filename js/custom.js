@@ -36,10 +36,14 @@ $(".collapse").on('hidden.bs.collapse', function () {
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover({
         html: true,
-        trigger: "hover",
+        trigger: "hover | click",
         placement: "bottom",
         content: function() {
           return txt_lang["SK-"+this.getAttribute("data-original-title")];
         },
     });
 });
+
+$('[data-toggle="popover"]').on('show.bs.popover', function () {
+    $('[aria-describedby*="popover"]').popover('hide');
+})
