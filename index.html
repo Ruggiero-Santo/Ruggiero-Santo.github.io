@@ -10,8 +10,7 @@
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
@@ -30,7 +29,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse show navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
@@ -70,12 +69,12 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0"> <span class="multilang" multilang-id="ED-UniPi-name"></span></h3>
+                    <div class="flex-grow-1" data-toggle="collapse" data-target="#collapseMSc">
+                        <h3 class="mb-0"> <span class="multilang" multilang-id="ED-UniPi-name"></span> </h3>
                         <div class="subheading mb-3"> <span class="multilang" multilang-id="ED-UniPi-title"></span></div>
-                        <div> <span class="multilang" multilang-id="ED-UniPi-specialization"></span> <i class="fas fa-chevron-down"id="controllerMSc" data-toggle="collapse" data-target="#collapseMSc"></i></div>
+                        <div> <span class="multilang" multilang-id="ED-UniPi-specialization"></span> <i class="fas fa-chevron-down" id="controllerMSc"></i></div>
                         <!-- Exams performed -->
-                        <div id="collapseMSc" class="collapse" data-controller="#controllerMSc">
+                        <div id="collapseMSc" class="collapse show" data-controller="#controllerMSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-UniPi"></span>
                                 <table class="table">
@@ -199,16 +198,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Nov 2017 - Mar 2021</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="ED-UniPi-period"></span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
+                    <div class="flex-grow-1" data-toggle="collapse" data-target="#collapseBSc">
                         <h3 class="mb-0"><span class="multilang" multilang-id="ED-UniBa-name"></span></h3>
                         <div class="subheading mb-3"><span class="multilang" multilang-id="ED-UniBa-title"></span></div>
-                        <div><span class="multilang" multilang-id="ED-UniBa-specialization"></span> <i class="fas fa-chevron-down"
-                                id="controllerBSc" data-toggle="collapse" data-target="#collapseBSc"></i></div>
+                        <div><span class="multilang" multilang-id="ED-UniBa-specialization"></span> <i class="fas fa-chevron-down" id="controllerBSc"></i></div>
                         <!-- Exams performed -->
-                        <div id="collapseBSc" class="collapse" data-controller="#controllerBSc">
+                        <div id="collapseBSc" class="collapse show" data-controller="#controllerBSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-UniBa"></span>
                                 <table class="table">
@@ -351,23 +349,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Sep 2014 - Oct 2017</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="ED-UniBa-period"></span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
+                    <div class="flex-grow-1" data-toggle="collapse" data-target="#collapseH">
                         <h3 class="mb-0">Sen. O. Iannuzzi, Andria(BT)</h3>
                         <div class="subheading mb-3">Technology High school</div>
                         <div>
                             <span class="multilang" multilang-id="ED-sup-title"></span> 
-                            <i class="fas fa-chevron-down" id="controllerH" data-toggle="collapse" data-target="#collapseH"></i></div>
+                            <i class="fas fa-chevron-down" id="controllerH"></i>
+                        </div>
                         <!-- Exams performed -->
-                        <div id="collapseH" class="collapse" data-controller="#controllerH">
+                        <div id="collapseH" class="collapse show" data-controller="#controllerH">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="ED-sup"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2015</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="ED-sup-period"></span></div>
                 </div>
             </div>
         </section>
@@ -377,15 +376,15 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
+                    <div class="flex-grow-1" data-toggle="collapse" data-target="#collapseThesisMSc">
                         <h3 class="mb-0">Software Engeneering - Machine Learning Scientist</h3>
                         <div class="subheading mb-3">CNR - Pisa</div>
                         <div>
                             <span class="multilang" multilang-id="EX-Pi"></span> 
-                            <i class="fas fa-chevron-down" id="controllerThesisMSc" data-toggle="collapse" data-target="#collapseThesisMSc"></i>
+                            <i class="fas fa-chevron-down" id="controllerThesisMSc"></i>
                         </div>
                         <!-- Thesis Info -->
-                        <div id="collapseThesisMSc" class="collapse" data-controller="#controllerThesisMSc">
+                        <div id="collapseThesisMSc" class="collapse show" data-controller="#controllerThesisMSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="EX-Pi-thesis"></span>
                             </div>
@@ -394,20 +393,21 @@
                     <div class="flex-shrink-0"><span class="text-primary">Apr 2020 - Feb 2021</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
+                    <div class="flex-grow-1" data-toggle="collapse" data-target="#collapseThesisBSc">
                         <h3 class="mb-0">Sotware Engeneering</h3>
                         <div class="subheading mb-3">Serlab - Software Engineering Research LABoratory</div>
-                        <div><span class="multilang" multilang-id="EX-Ba"></span> <i class="fas fa-chevron-down"
-                                id="controllerThesisBSc" data-toggle="collapse" data-target="#collapseThesisBSc"></i>
+                        <div>
+                            <span class="multilang" multilang-id="EX-Ba"></span>
+                            <i class="fas fa-chevron-down" id="controllerThesisBSc"></i>
                         </div>
                         <!-- Thesis Info -->
-                        <div id="collapseThesisBSc" class="collapse" data-controller="#controllerThesisBSc">
+                        <div id="collapseThesisBSc" class="collapse show" data-controller="#controllerThesisBSc">
                             <div class="card-body">
                                 <span class="multilang" multilang-id="EX-Ba-thesis"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">May 2017 - Jul 2017</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="EX-Ba-period"></span></div>
                 </div>
             </div>
         </section>
