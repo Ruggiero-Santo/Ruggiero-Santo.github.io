@@ -15,6 +15,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
+    <link href='css/print.css'  rel='stylesheet'  media='print' />
 </head>
 
 <body id="page-top">
@@ -37,6 +38,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#softskills">Soft Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobby">Hobby</a></li>
+                <li class="nav-item"><a class="nav-link pos_bottom" onclick="window.print();return false;" href="">Click to Save as PDF</a></li>
             </ul>
         </div>
     </nav>
@@ -44,31 +46,36 @@
     <div class="container-fluid p-0">
         <!-- About-->
         <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Ruggiero
-                    <span class="text-primary">Santo</span>
-                </h1>
-                <div class="subheading mb-5">
-                    <span class="multilang" multilang-id="location"></span> ·
-                    <a href="mailto:ruggiero.santo@gmail.com">ruggiero.santo@gmail.com</a>
+            <div class="resume-section-content">    
+                <div class="wrap">
+                    <div class="img">
+                        <img class="only_on_print img_profile rounded-circle" src="assets/img/profile.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1 class="mb-0"> Ruggiero <span class="text-primary">Santo</span> </h1>
+                        <div class="subheading mb-5">
+                            <span class="multilang" multilang-id="location"></span> ·
+                            <a href="mailto:ruggiero.santo@gmail.com">ruggiero.santo@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
                 <p class="lead mb-5"><span class="multilang" multilang-id="about-me"></span></p>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/ruggiero-santo-79b072207/"><i
-                            class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/ruggiero-santo-79b072207/"><i class="fab fa-linkedin-in"></i></a>
                     <a class="social-icon" href="https://github.com/Ruggiero-Santo"><i class="fab fa-github"></i></a>
-                    <a class="social-icon" href="https://www.hackerrank.com/ruggiero_santo"><i
-                            class="fab fa-hackerrank"></i></a>
+                    <a class="social-icon" href="https://www.hackerrank.com/ruggiero_santo"><i class="fab fa-hackerrank"></i></a>
+                </div>
+                <div class="only_on_print pos_bottom">
+                    <span class="multilang" multilang-id="visit-site"></span>
                 </div>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0 p_hidden " />
         <!-- Education -->
         <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5 not_break">
                     <div class="flex-grow-1">
                         <div data-toggle="collapse" data-target="#collapseMSc">
                             <h3 class="mb-0"> <span class="multilang" multilang-id="ED-UniPi-name"></span> </h3>
@@ -95,105 +102,105 @@
                                         <tr>
                                             <th scope="row">1</th>
                                             <td>261AA</td>
-                                            <td>peer to peer systems and blockchains (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37721">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-P2P"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37721">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>289AA</td>
-                                            <td>information retrieval (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38292">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-IR"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38292">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>290AA</td>
-                                            <td>advanced software engineering (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=43424">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-ASE"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=43424">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">4</th>
                                             <td>303AA</td>
-                                            <td>ict risk assessment (<a href="https://esami.unipi.it/esami2/pdfProgCorsoStu.php?language=en&c=42265">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-ICT_RA"></span> (<a href="https://esami.unipi.it/esami2/pdfProgCorsoStu.php?language=en&c=42265">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">5</th>
                                             <td>305AA</td>
-                                            <td>parallel and distributed systems: paradigms and models (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33651">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Parallel"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33651">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">6</th>
                                             <td>309AA</td>
-                                            <td>data mining (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33591">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-DataMining"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33591">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">7</th>
                                             <td>387AA</td>
-                                            <td>introduction to robotics (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=34162">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Rocotics"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=34162">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">8</th>
                                             <td>531AA</td>
-                                            <td>algorithm engineering (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37159">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-AE"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37159">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">9</th>
                                             <td>643AA</td>
-                                            <td>artificial intelligence fundamentals (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33188">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-AI_Funda"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33188">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">10</th>
                                             <td>646AA</td>
-                                            <td>computational mathematics for learning and data analysis (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33053">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Math"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=33053">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">11</th>
                                             <td>649AA</td>
-                                            <td>human language technologies (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=39781">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-HLT"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=39781">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">12</th>
                                             <td>651AA</td>
-                                            <td>intelligent systems for pattern recognition (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37599">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Patter"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=37599">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">13</th>
                                             <td>654AA</td>
-                                            <td>machine learning (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=36545">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-ML"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=36545">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">14</th>
                                             <td>655AA</td>
-                                            <td>mobile and cyber-physical systems (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38127 ">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Mobile"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=38127 ">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">15</th>
                                             <td>658AA</td>
-                                            <td>smart applications (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=42283">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniPI-Exam-Smart"></span> (<a href="https://esami.unipi.it/esami2/programma.php?pg=ects&c=42283">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
@@ -205,7 +212,7 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="ED-UniPi-period"></span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5 not_break">
                     <div class="flex-grow-1">
                         <div data-toggle="collapse" data-target="#collapseBSc">
                             <h3 class="mb-0"><span class="multilang" multilang-id="ED-UniBa-name"></span></h3>
@@ -230,127 +237,127 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">1</th>
-                                            <td>Analisi e progettazione di sistemi software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisieprogettazionedisistemisoftwareMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-ProgettazioneSF"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisieprogettazionedisistemisoftwareMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
-                                            <td>Analisi Matematica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisimatematicaMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Analisi"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AnalisimatematicaMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
-                                            <td>Architettura degli Elaboratori e Sistemi Operativi (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AdESOMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Architetura"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/AdESOMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">4</th>
-                                            <td>Calcolo Numerico (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/CalcolonumericoMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Calcolo"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/CalcolonumericoMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">5</th>
-                                            <td>Economia e Gestione d’impresa (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/economiagestioneimpreMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Economia"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/economiagestioneimpreMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">6</th>
-                                            <td>Fisica Applicata all’Informatica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/FisicaApplicataInformaticaMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Fisica"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/FisicaApplicataInformaticaMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">7</th>
-                                            <td>Gestione della Conoscenza d’ Impresa (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/MetodiperlaGestionedellaConoscenzaITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Lops"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/MetodiperlaGestionedellaConoscenzaITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">8</th>
-                                            <td>Integrazione e Test di Sistemi Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ITSSITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Test"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ITSSITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">8</th>
-                                            <td>Laboratorio di Informatica (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/laboratorioinformaticaMZITPSn.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Lab"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/laboratorioinformaticaMZITPSn.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">9</th>
-                                            <td>Lingua inglese (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaingleseMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Inglese"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaingleseMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">10</th>
-                                            <td>Linguaggi di Programmazione (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaggidiprogrammazioneITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Linguaggi"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/LinguaggidiprogrammazioneITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">11</th>
-                                            <td>Matematica Discreta (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/MatematicadiscretaMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Distreta"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/MatematicadiscretaMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">12</th>
-                                            <td>Modelli per la Qualità del Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ModelliITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-QualitaSF"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/ModelliITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">13</th>
-                                            <td>Progettazione dell’Interazione con l’Utente+Lab. (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/piuITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Interfaccia"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/piuITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">14</th>
-                                            <td>Progettazione di Basi di Dati (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgettazioneBasiDatiMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-DB"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgettazioneBasiDatiMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">15</th>
-                                            <td>Programmazione (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgrammazioneMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Prog"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/ProgrammazioneMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">16</th>
-                                            <td>Programmazione II (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/Programmazione2MZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-ProgII"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/Programmazione2MZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">17</th>
-                                            <td>Reti di calcolatori (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/RetiCalcolatoriMZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Reti"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/RetiCalcolatoriMZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>9</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">18</th>
-                                            <td>Sistemi multimediali (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SistemiCooperativiITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-SysMulti"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SistemiCooperativiITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">19</th>
-                                            <td>Statistica per l’Ingegneria del Software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/StatisticaingswLZITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Statistica"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2015-16/programmi-2015-16/StatisticaingswLZITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">20</th>
-                                            <td>Sviluppo di mobile software (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SMSITPS.pdf">syllabus</a>)
+                                            <td><span class="multilang" multilang-id="UniBA-Exams-Mobile"></span> (<a href="https://www.uniba.it/ricerca/dipartimenti/informatica/didattica/corsi-di-laurea/informatica-tps-270/anni-accademici-precedenti/anno-accademico-2016-17/programmi-2016-17/SMSITPS.pdf">syllabus</a>)
                                             </td>
                                             <td>6</td>
                                         </tr>
@@ -361,7 +368,7 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary multilang" multilang-id="ED-UniBa-period"></span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column flex-md-row justify-content-between not_break">
                     <div class="flex-grow-1">
                         <div data-toggle="collapse" data-target="#collapseH">
                             <h3 class="mb-0">Sen. O. Iannuzzi, Andria(BT)</h3>
@@ -382,7 +389,7 @@
                 </div>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0 new_page" />
         <!-- Experience-->
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
@@ -427,22 +434,21 @@
                 </div>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0 p_hidden " />
         <!-- Skills-->
-        <!-- TODO: Da inserire quando sono state acquisite le varie conoscenze -->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Skills</h2>
                 <div class="subheading mb-3">Programming Languages</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-python" data-toggle="popover" title="Python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-java" data-toggle="popover" title="Java"></i></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="Python"><i class="fab fa-python"></i></div></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="Java"><i class="fab fa-java"></i></div></li>
                     <li class="list-inline-item"><img src="assets/svg/C++.svg" alt="C++ logo" width="55" class=svg-inline--fa data-toggle="popover" title="C++"/></li>
                     <li class="list-inline-item"><img src="assets/svg/C.svg" alt="C logo" width="55" class=svg-inline--fa data-toggle="popover" title="C"/></li>
-                    <li class="list-inline-item"><a><i class="fab fa-js-square" data-toggle="popover" title="JavaScript"></i></a></li>
-                    <li class="list-inline-item"><i class="fab fa-php" data-toggle="popover" title="PHP"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-html5" data-toggle="popover" title="HTML"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt" data-toggle="popover" title="CSS"></i></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="JavaScript"><i class="fab fa-js-square"></i></div></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="PHP"><i class="fab fa-php"></i></div></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="HTML"><i class="fab fa-html5"></i></div></li>
+                    <li class="list-inline-item"><div data-toggle="popover" title="CSS"><i class="fab fa-css3-alt"></i></div></li>
                     <li class="list-inline-item"><img src="assets/svg/typescript.svg" alt="TypeScript logo" width="44" class="svg-inline--fa" data-toggle="popover" title="TypeScript"/></li>
                     <li class="list-inline-item"><img src="assets/svg/solidity.svg" alt="solidity logo" width="44" class="svg-inline--fa" data-toggle="popover" title="Solidity"/></li>
                 </ul>
@@ -473,7 +479,7 @@
                 </ul>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0 p_hidden " />
         <!-- Soft Skills -->
         <section class="resume-section" id="softskills">
             <div class="resume-section-content">
@@ -500,7 +506,7 @@
                 <span class="multilang" multilang-id="SF-explanation"></span>
             </div>
         </section>
-        <hr class="m-0" />
+        <hr class="m-0 p_hidden " />
         <!-- Hobby -->
         <section class="resume-section" id="hobby">
             <div class="resume-section-content">
@@ -508,7 +514,7 @@
                 <span class="multilang" multilang-id="H-explanation"></span>
             </div>
         </section>
-        <div class="float">
+        <div class="float p_hidden">
             <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span id="current-lang"><span class="flag-icon flag-icon-gb"></span> English</span>
             </a>
