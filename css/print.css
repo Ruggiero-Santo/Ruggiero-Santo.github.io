@@ -1,4 +1,5 @@
 @media print {
+
     .p_hidden {
         display: none;
     }
@@ -21,22 +22,31 @@
         bottom: 0px;
     }
 
+    /* First Page */
     .img_profile {
         display: block;
         max-width: 9rem;
         max-height: 9rem;
         border: 0.5rem solid rgb(189, 93, 56, 0.7) ;
     }
-
     div.img {
        flex: 1;
     }
-
     div.text {    
         flex: 5;
     }
-
     div.wrap {
         display: flex;
+    }
+
+    /* List of skill */
+    .list-inline-item {
+        display: block;
+    }
+    .dev_text {
+        font-size: 1rem;
+    }
+    .add_pad_on_print {
+        padding-top: 2.5rem;
     }
 }

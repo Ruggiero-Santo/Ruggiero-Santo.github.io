@@ -100,6 +100,8 @@ en_lang = {
     "SK-Visual Studio Code": "Experience: High</br> Switched to VSCode for some small stuff and integration with the workgroup. </br> I also did some small extensions for personal use. ",
     "SK-Eclipse": "Experience: High</br> Used a lot while programming in Java.",
     "SK-Atom": "Experience: Medium</br> Used a lot with the use of all the other languages learned along the way.",
+    "SK-Windows": "Daily use on personal PC ",
+    "SK-Linux": "Slightly more sporadic use, as I use it for special projects on the (personal) computer. Almost daily use on the server (so cmd GUI) for university projects.",
 
     "l-en": '<span class="flag-icon flag-icon-gb"></span> English',
     "l-it": '<span class="flag-icon flag-icon-it"></span> Italian',
