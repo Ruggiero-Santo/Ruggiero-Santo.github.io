@@ -52,6 +52,9 @@ it_lang = {
     "UniBA-Exams-Statistica": "Statistica per l’Ingegneria del Software",
     "UniBA-Exams-Mobile": "Sviluppo di mobile software",
 
+    "EX-Paper": "Periodo in cui con l'Università di Pisa è stato fatto un contratto di collaborazione per proseguire il lavoro di tesi e per la relativa pubblicazione di un articolo scientifico sul lavoro di ricerca. Il proseguimento del lavoro prevede la verifica di quanto fatto fino ad ora, con i nuovi dati proveniti dagli ospedali, e il successivo utilizzo per il miglioramento dei risultati.",
+    "EX-Paper-More": "Più informazioni verranno aggiunte quando il lavoro sarà pubblicato.",
+    "EX-Paper-Date": "Mar 2021 - Mag 2021",
     "ED-sup-title": "Tecnico Specializzato - Informatica e Telecomunicazioni",
     "ED-sup": 'The five-year course is divided into a two-year course, the same for everyone, in which various non-specialist subjects are studied, <a href="http://www.itisandria.edu.it/index.php/la-scuola/carta-d-identita-della-scuola/il-biennio">see here</a>, and a three-year with various subjects strictly related to the chosen branch of industry <a href="http://www.itisandria.edu.it/index.php/la-scuola/carta-d-identita-della-scuola/l-informatica">see here</a>, in my case in Computer Science and Telecommunications.',
     "ED-sup-period": "Giu 2014",

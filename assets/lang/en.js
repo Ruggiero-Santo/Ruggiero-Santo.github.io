@@ -56,6 +56,9 @@ en_lang = {
     "ED-sup": 'The five-year course is divided into a two-year course, the same for everyone, in which various non-specialist subjects are studied, <a href="http://www.itisandria.edu.it/index.php/la-scuola/carta-d-identita-della-scuola/il-biennio">see here</a>, and a three-year with various subjects strictly related to the chosen branch of industry <a href="http://www.itisandria.edu.it/index.php/la-scuola/carta-d-identita-della-scuola/l-informatica">see here</a>, in my case in Computer Science and Telecommunications.',
     "ED-sup-period": "Jun 2014",
     
+    "EX-Paper": "A period in which a collaboration contract was made with the University of Pisa to continue the thesis work and then publish the scientific article on the research work. With the new data coming from the hospitals, will be verified what has been done so far and subsequently used to improve the results.",
+    "EX-Paper-More": "More information will be added when the work is published.",
+    "EX-Paper-Date": "Mar 2021 - May 2021",
     "EX-Pi": "Period in which I did my thesis work.",
     "EX-Pi-thesis": "<b>Title</b>: Dynamic neural networks for COVID-19 severity prediction from lung ultrasound. </br> <b>Abstract</b>: The thesis deals with the preparation and predictive analysis of lung ultrasound video to predict the severity of COVID-19 effects. The acquired videos were cleared, organized and precessed for training and benchmarking different deep learning models from action recognition literature. The developed models were also evaluated from a clinical perspective against expert medical opinion. </br> </br> The document is in English and all the work was carried out in complete autonomy in consultation with doctors with expertise in LUS for clinical validation. </br> Soon at least one paper will be published on this work, so more information will be added later.",
     "EX-Ba": "300-hour internship where I did part of my thesis work",
