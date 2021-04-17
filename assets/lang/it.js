@@ -1,6 +1,6 @@
 it_lang = {
     "location": "BARLETTA, PUGLIA, ITALIA",
-    "about-me": "",
+    "about-me": "Sono alla ricerca di un ambienta di lavoro giovane e in continuo mutamento ed evoluzione con spiccate propensione nell'innovazione. Non ho paura di continuare a studiare e imparare cose nuove (anzi se necessario è meglio). Amo la pura programmazione e lo sviluppo ma nel lavoro voglio risolvere nuovi problemi in maniera innovativa! (Lavoro in team in modo agile)",
     "ED-UniPi-name": "Università di Pisa",
     "ED-UniPi-title": "Master of Science",
     "ED-UniPi-specialization": "Informatica - Intelligenza Artificiale",

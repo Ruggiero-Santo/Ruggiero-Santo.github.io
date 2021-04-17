@@ -1,6 +1,6 @@
 en_lang = {
     "location": "BARLETTA, APULIA, ITALY",
-    "about-me": "",
+    "about-me": "I am looking for a young, constantly changing and evolving working environment with a strong propensity for innovation. I am not afraid to keep studying and learning new things (even better if necessary). I love pure programming and development but at work I want to solve new problems in an innovative way! (Team work in agile way)",
     "ED-UniPi-name": "University of Pisa",
     "ED-UniPi-title": "Master of Science",
     "ED-UniPi-specialization": "Computer Science - Artificial Intelligence",
