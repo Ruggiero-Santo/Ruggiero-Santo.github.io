@@ -105,10 +105,14 @@ it_lang = {
     "SK-Atom": "Esperienza: Media</br> Utilizzato molto con l'utilizzo di tutti gli altri linguggi imparati durante il percorso.", 
     "SK-Windows": "Utilizzo quotidiano sul computer personale.",
     "SK-Linux": "Utilizzo un pò più sporadico tramite dato lo utilizzo per progetti particolari sul computer (personale). Utilizzo quasi quotidiano su server (quindi cmd GUI) per progetti univeristari.",
+    "SK-Italian": "Madre lingua.",
+    "SK-English": "Uso giornaliero sull'ascolto e la comprensione del testo (soprattoto tecnico), un pò meno frequeste l'esercizio sulla scrittura e il dialogo. Tutto il Master e gli elaborati, tra cui il lavoro di tesi sono stati fatti in Inglese.",
+
 
     "l-en": '<span class="flag-icon flag-icon-gb"></span> Inglese',
     "l-it": '<span class="flag-icon flag-icon-it"></span> Italiano',
 
     "visit-site": "Per poter usufruire dei link e per una migliore esperienza d'uso visita il sito </br> https://ruggiero-santo.github.io/",
+    "languages": "Lingue",
 
 }

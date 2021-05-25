@@ -105,10 +105,13 @@ en_lang = {
     "SK-Atom": "Experience: Medium</br> Used a lot with the use of all the other languages learned along the way.",
     "SK-Windows": "Daily use on personal PC ",
     "SK-Linux": "Slightly more sporadic use, as I use it for special projects on the (personal) computer. Almost daily use on the server (so cmd GUI) for university projects.",
+    "SK-Italian": "mother tongue",
+    "SK-English": "Daily use of listening and text comprehension (mainly technical), a little less frequent practice of writing and dialogue. All the Master's course and papers, including the thesis work, were done in English.",
 
     "l-en": '<span class="flag-icon flag-icon-gb"></span> English',
     "l-it": '<span class="flag-icon flag-icon-it"></span> Italian',
 
     "visit-site": "To take advantage of the links and for a better user experience visit the site </br> https://ruggiero-santo.github.io/",
+    "languages": "Languages",
 
 }
