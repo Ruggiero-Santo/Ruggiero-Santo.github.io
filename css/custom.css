@@ -15,7 +15,7 @@
     position: fixed;
     bottom: 2em;
     right: 3em;
-}
+  }
 }
 
 @media (max-width: 992px) {
@@ -23,7 +23,7 @@
     position: fixed;
     bottom: 1em;
     right: 1em;
-}
+  }
 }
 
 
